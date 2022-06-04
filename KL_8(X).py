@@ -12,10 +12,6 @@ logging.error('error example')
 logging.critical('critical example')
 
 
-def abeme(args):
-    pass
-
-
 try:
     print(abeme)
 except BaseException as error:
