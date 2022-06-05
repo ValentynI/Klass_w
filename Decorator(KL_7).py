@@ -1,7 +1,7 @@
 def checker(function):
-    def checker_1(*args, **kwards):
+    def checker_1(*args, **kwargs):
         try:
-            result = function(*args, **kwards)
+            result = function(*args, **kwargs)
         except Exception as exc:
             print(f'We have problems {exc}')
         else:
